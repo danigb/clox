@@ -28,6 +28,9 @@ struct ObjString
     char *chars;
 };
 
+ObjString *copyString(const char *chars, int length);
+void printObject(Value value);
+
 // Why not just put the body of this function right in the macro?
 // https://craftinginterpreters.com/strings.html#struct-inheritance
 static inline bool isObjType(Value value, ObjType type)
