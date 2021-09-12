@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "build": "gcc src/main.c -o bin/clox"
+    "dev": "npm run build && npm run start",
+    "build": "gcc -Wall -g src/*.c -o bin/clox",
+    "start": "./bin/clox"
   }
 }
