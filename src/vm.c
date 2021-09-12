@@ -69,10 +69,12 @@ static void runtimeError(const char *format, ...)
 void initVM()
 {
     resetStack();
+    vm.objects = NULL;
 }
 
 void freeVM()
 {
+    freeObjects();
 }
 
 /* 

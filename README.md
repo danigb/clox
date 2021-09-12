@@ -9,7 +9,7 @@ https://craftinginterpreters.com/a-bytecode-virtual-machine.html
 - [x] 16 Scanning on Demand
 - [x] 17 Compiling Expressions
 - [x] 18 Types of Values
-- [ ] 19 Strings
+- [x] 19 Strings
 - [ ] 20 Hash Tables
 - [ ] 21 Global Variables
 - [ ] 22 Local Variables
