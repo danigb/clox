@@ -18,7 +18,7 @@ static int constantInstruction(const char *name, Chunk *chunk,
     return offset + 2;
 }
 
-void dissasembleChunk(Chunk *chunk, const char *name)
+void disassembleChunk(Chunk *chunk, const char *name)
 {
     printf("== %s ==\n", name);
 
